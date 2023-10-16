@@ -1,0 +1,61 @@
+body {
+  padding-top: 5rem;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  .gmbr {
+    height: auto;
+    width: auto;
+  }
+
+  .carousel {
+    flex: 1 0 auto;
+  }
+
+  #footer {
+    flex-shrink: none;
+  }
+
+  .info {
+    list-style: none;
+    position: relative;
+    margin-left: -30px;
+  }
+
+  .info li {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+
+  }
+
+  .kontak {
+    list-style: none;
+    position: relative;
+    margin-left: -30px;
+    
+  }
+
+  .kontak li {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+  }
+
+  .kontak_a {
+    line-height: 2.5;
+  }
+
+  .kontak_b {
+    line-height: 2.5;
+  }
+
+  /* 
+                        <i class="fa-solid fa-house"></i> Jl. DR. Soetomo No.12, Prenam, Dukuhwringin, Kec. Slawi, Kabupaten Tegal, Jawa Tengah 52417
+                      
+                        <i class="fa-solid fa-envelope"></i>  naker.slawi@gmail.com
+                      
+                        <i class="fa-solid fa-phone"></i> (0283) 491784
+  *\
